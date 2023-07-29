@@ -1,4 +1,4 @@
-# vue3-hjs-example
+# vue3-jjw-example
 
 ## Project setup
 ```
