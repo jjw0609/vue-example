@@ -8,10 +8,10 @@ jobs:
       uses: actions/checkout@master
 
     - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@master
+      uses: jjw0609/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: jjw0609/vue-projects
         TARGET_BRANCH: master
         BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: /dist
+        BUILD_DIR: dist
