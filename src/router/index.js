@@ -209,6 +209,70 @@ const routes = [
             /* webpackChunkName: "databing23" */ "../views/axios/AxiosPost2.vue"
           ),
       },
+      {
+        path: "binding24",
+        meta: { title: "엑시오스-html태그에 바인딩 예제" },
+        component: () =>
+          import(
+            /* webpackChunkName: "databing24" */ "../views/axios/AxiosPost3.vue"
+          ),
+      },
+      {
+        path: "binding25",
+        meta: { title: "엑시오스-전역객체 예제" },
+        component: () =>
+          import(
+            /* webpackChunkName: "databing25" */ "../views/axios/AxiosGlobal4.vue"
+          ),
+      },
+      {
+        path: "binding26",
+        meta: { title: "엑시오스-동기화 예제" },
+        component: () =>
+          import(
+            /* webpackChunkName: "databing26" */ "../views/axios/AxiosSync5.vue"
+          ),
+      },
+      {
+        path: "binding27",
+        meta: { title: "컴포넌트 개념" },
+        component: () =>
+          import(
+            /* webpackChunkName: "databing27" */ "../views/compo/ParentComponent.vue"
+          ),
+      },
+      {
+        path: "binding28",
+        meta: { title: "컴포넌트 부모-자식 이벤트 호출" },
+        component: () =>
+          import(
+            /* webpackChunkName: "databing28" */ "../views/props/ParentCompo1.vue"
+          ),
+      },
+      {
+        path: "binding29",
+        meta: { title: "컴포넌트 자식->부모 Emit 호출" },
+        component: () =>
+          import(
+            /* webpackChunkName: "databing29" */ "../views/props/ParentCompoEmit3.vue"
+          ),
+      },
+      {
+        path: "binding30",
+        meta: { title: "슬롯 -> 기본개념" },
+        component: () =>
+          import(
+            /* webpackChunkName: "databing30" */ "../views/slot/SlotParent.vue"
+          ),
+      },
+      {
+        path: "binding31",
+        meta: { title: "슬롯 -> 응용" },
+        component: () =>
+          import(
+            /* webpackChunkName: "databing31" */ "../views/slot/SlotUseModalLayout.vue"
+          ),
+      },
     ],
   },
 ];
