@@ -5,6 +5,6 @@ module.exports = defineConfig({
   transpileDependencies: true,
   outputDir: path.resolve(__dirname, "docs"),
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/vue-projects/'
+    ? 'https://jjw0609.github.io/vue-projects/'
     : '/'
 })
