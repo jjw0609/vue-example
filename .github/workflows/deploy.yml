@@ -1,4 +1,4 @@
-jobs:
+jobs: Deploy gh-pages
   # job의 이름 설정
   deploy:
   	# 해당 job을 실행하는 운영 체제
