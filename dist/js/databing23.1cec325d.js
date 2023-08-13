@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue3_jjw_example"]=self["webpackChunkvue3_jjw_example"]||[]).push([[850],{4528:function(e,t,o){o.r(t),o.d(t,{default:function(){return c}});var n=o(3396);function s(e,t,o,s,u,a){return(0,n.wg)(),(0,n.iD)("h2",null,"Axios : 포스트 방식 예제")}var u=o(4161),a={data(){return{}},mounted(){u.Z.post("https://jsonplaceholder.typicode.com/posts",{userId:"1",title:"타이틀",body:"바디 부분"}).then((e=>{console.log(e),console.log(e.data),this.posts=e.data}))}},r=o(89);const l=(0,r.Z)(a,[["render",s]]);var c=l}}]);
+//# sourceMappingURL=databing23.1cec325d.js.map
