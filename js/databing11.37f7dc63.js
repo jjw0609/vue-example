@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkvue3_jjw_example"]=self["webpackChunkvue3_jjw_example"]||[]).push([[209],{6236:function(e,r,a){a.r(r),a.d(r,{default:function(){return v}});var t=a(3396),n=a(7139);function c(e,r,a,c,u,i){return(0,t.wg)(),(0,t.iD)("div",null,[(0,t._)("div",{class:(0,n.C_)(["container",{active:u.isActive,"text-red":u.hasError}])}," 클래스 바인딩 ",2)])}var u={data(){return{isActive:!1,hasError:!0}}},i=a(89);const s=(0,i.Z)(u,[["render",c],["__scopeId","data-v-7397e3ca"]]);var v=s}}]);
-//# sourceMappingURL=databing11.37f7dc63.js.map
