@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkvue3_jjw_example"]=self["webpackChunkvue3_jjw_example"]||[]).push([[378],{4706:function(n,e,t){t.r(e),t.d(e,{default:function(){return v}});var u=t(3396);function r(n,e,t,r,c,l){const o=(0,u.up)("slot-child");return(0,u.wg)(),(0,u.j4)(o)}const c=(0,u._)("h1",null,"슬롯 자식 입니다.",-1),l=[c];function o(n,e,t,r,c,o){return(0,u.wg)(),(0,u.iD)("div",null,l)}var s={},a=t(89);const i=(0,a.Z)(s,[["render",o]]);var d=i,f={components:{SlotChild:d}};const p=(0,a.Z)(f,[["render",r]]);var v=p}}]);
-//# sourceMappingURL=databing30.7d2af1fc.js.map
