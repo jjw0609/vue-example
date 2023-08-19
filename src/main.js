@@ -4,6 +4,7 @@ import router from "./router";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import axios from 'axios';
+import mixin from '@/mixins/mixins';
 
 //createApp(App).use(router).mount("#app");
 
@@ -14,6 +15,8 @@ app.config.globalProperties.$axios = axios
 
 // [라우터 사용 설정]
 app.use(router)
+
+app.mixin(mixin)
 
 // [main 아이디 : 렌더링 시작점]
 app.mount('#app')

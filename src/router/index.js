@@ -273,6 +273,61 @@ const routes = [
             /* webpackChunkName: "databing31" */ "../views/slot/SlotUseModalLayout.vue"
           ),
       },
+      {
+        path: "binding32",
+        meta: { title: "프로바이드-인젝트" },
+        component: () =>
+          import(
+            /* webpackChunkName: "databing32" */ "../views/provideinject/BigComponent.vue"
+          ),
+      },
+      {
+        path: "binding33",
+        meta: { title: "믹스드인 - mixed in" },
+        component: () =>
+          import(
+            /* webpackChunkName: "provide" */ "../views/mixin/UseMixinExample3.vue"
+          ),
+      },
+      {
+        path: "binding34",
+        meta: { title: "계산기-옵셔널 예제" },
+        component: () =>
+          import(
+            /* webpackChunkName: "provide" */ "../views/composition/CalculatorOptional.vue"
+          ),
+      },
+    ],
+  },
+  {
+    path: "/compo",
+    name: "CompositionApi1",
+    meta: { title: "컴포지션 API" },
+    children: [
+      {
+        path: "compo1",
+        meta: { title: "컴포지션 API - 계산기" },
+        component: () =>
+          import(
+            /* webpackChunkName: "compo1" */ "../views/composition/CalculatorComposition1.vue"
+          ),
+      },
+      {
+        path: "compo2",
+        meta: { title: "컴포지션 API - Ref 예제" },
+        component: () =>
+          import(
+            /* webpackChunkName: "compo2" */ "../views/composition/CompositionRef2.vue"
+          ),
+      },
+      {
+        path: "compo3",
+        meta: { title: "컴포지션 API - Function 예제" },
+        component: () =>
+          import(
+            /* webpackChunkName: "compo3" */ "../views/composition/CompositionFunction3.vue"
+          ),
+      },
     ],
   },
 ];
