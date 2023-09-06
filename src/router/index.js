@@ -11,7 +11,7 @@ const routes = [
   {
     path: "/data",
     name: "DataBinding1",
-    meta: { title: "데이타바인딩" },
+    meta: { title: "데이터바인딩" },
     children: [
       {
         path: "binding1",

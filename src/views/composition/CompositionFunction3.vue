@@ -24,7 +24,7 @@ export default {
 
      watch(search, () => {
       'search 값이 바뀔때마다 실행되는 함수'
-      console.log('와치함수 실행')
+      console.log('watch함수 실행')
     })
 
     return {

@@ -17,13 +17,13 @@ export default {
   },
   methods: {
     getFullName() {
-      console.log("메써드 함수 호출");
+      console.log("methods 함수 호출");
       return this.firstName + "" + this.lastName;
     },
   },
   computed: {
     fullName() {
-      console.log("컴퓨티드 함수 호출");
+      console.log("computed 함수 호출");
       return this.firstName + "" + this.lastName;
     },
   },
